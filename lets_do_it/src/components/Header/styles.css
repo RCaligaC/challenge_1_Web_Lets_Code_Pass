@@ -1,0 +1,42 @@
+#header {
+    background-color: #203047;
+    color: white;
+    padding: 0.5rem 4rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+#header #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header #navbar .brand {
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+#header #navbar .hight-side{
+    display: flex;
+    align-items: center;
+}
+
+#header #navbar .hight-side img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#header #navbar .hight-side .profile .name {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#header #navbar .hight-side .profile .welcome-message {
+    font-size: 0.7rem;
+    color: #cccccc;
+}
