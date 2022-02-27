@@ -19,6 +19,12 @@
     font-weight: 600;
 
 }
+
+#header #navbar .brand span{
+    color: rgb(245, 208, 31);
+
+}
+
 #header #navbar .hight-side{
     display: flex;
     align-items: center;

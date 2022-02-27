@@ -1,0 +1,31 @@
+#todo-list {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+#todo-list form {
+    display: flex;
+    margin-top: 10px;
+}
+
+#todo-list h2 {
+    font-weight: bolder;
+    color: blue;
+}
+
+#todo-list form input{
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#todo-list form button{
+    cursor: pointer;
+    padding: 0 20px;
+    background-color: #f5d01f;
+    border: none;
+    border-radius: 5px;
+    ;
+}

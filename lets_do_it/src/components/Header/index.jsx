@@ -4,7 +4,9 @@ function Header(){
     return (
         <header id='header'>
             <nav id='navbar'>
-                <span className='brand'>Let'sDoIt</span>
+                <span className='brand'>
+                    <span>Let's</span>DoIt
+                </span>
 
                 <div className='hight-side'>
                     <img src="https://avatars.githubusercontent.com/u/86314443?s=40&v=4" 
@@ -16,7 +18,7 @@ function Header(){
                 </div>
             </nav>
         </header>
-    )
+    );
 }
 
 export default Header;
