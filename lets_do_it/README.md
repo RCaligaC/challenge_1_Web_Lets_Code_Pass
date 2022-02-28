@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Challenge 1 | Let's Code Pass
+Let'sDoIt
+Fala, pessoal! Sejam muito bem-vindos ao 1º Challenge de Web disponibilizado no Let’s Code Pass! Você deve estar acompanhando as Short Classes de Web e, agora, é hora de colocar seus novos conhecimentos em prática! Vamos nessa?! 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Antes de tudo, é válido destacar que por se tratar de um desafio, é essencial que você troque uma ideia com outras pessoas, caso sinta dificuldades, ou mesmo possa utilizar do nosso servidor do Discord para enviar suas dúvidas. Ah, claro, você também pode ficar de olho nas dúvidas de outras pessoas para ajudá-las. Tudo isso vai te ajudar a avançar cada vez mais rumo ao seu objetivo!
 
-## Available Scripts
+Conhecendo o Challenge
+Indo direto ao ponto... Seu desafio será desenvolver uma aplicação para lista de tarefas, chamada Let’sDoIt! Caso deseje observar o resultado esperado por meio de uma aplicação de exemplo, você pode consultar o link abaixo:
 
-In the project directory, you can run:
+Let'sDoIt
 
-### `npm start`
+A aplicação acima foi desenvolvida, utilizando ReactJS. No entanto, você também pode desenvolvê-la utilizando apenas o JavaScript. O visual da aplicação deve ser desenvolvido utilizando HTML e CSS. As cores utilizadas no projeto são elencadas abaixo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Azul: #203047
+Amarelo: #f5d01f
+Cinza (background): #e7e7e7
+Branco: #FFFFFF
+Preto: #000000
+Além disso, a fonte utilizada é a Poppins (você pode fazer o download dela por meio deste link); porém, você pode optar por outra fonte de sua preferência.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Requisitos Funcionais
+Fique atento aos requisitos funcionais da aplicação:
 
-### `npm test`
+Adicionar Tarefa: a funcionalidade mais importante da aplicação é aquela de adicionar novas tarefas. Ao digitar o nome da tarefa no input e clicar sobre o botão “Adicionar”, a tarefa digitada deverá ser adicionada em uma lista abaixo, conforme apresentado na aplicação de exemplo.
+Alterar status da tarefa: cada tarefa adicionada deverá conter um checkbox ao lado. Ao clicar nesse checkbox, a tarefa deverá ser marcada como concluída ou não concluída, a depender do estado do checkbox (checked ou unchecked).
+Remover tarefa: por fim, cada tarefa adicionada também deverá conter um botão para removê-la. Ao clicar nesse botão, a respectiva tarefa deverá ser removida da listagem.
+💡 Embora esses sejam os únicos requisitos funcionais, você pode ficar à vontade para adicionar outras funcionalidades, caso queira. Por exemplo, editar as tarefas adicionadas pode ser desejável para o usuário da sua aplicação. 😉
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Como rodar o projeto?
+Para rodar este projeto, primeiro execute o comando npm install ou yarn na raiz desta pasta (mesmo diretório em que se encontra este README.md). Em seguida, utilize o comando npm start ou yarn start para iniciar o projeto, abrindo-o no navegador.
