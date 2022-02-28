@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import Header from "./components/Header";
-import Inspiration from "./components/Inspiration";
 //import { Inspiration } from "./components/Inspiration";
 
 import "./styles/global.css";
@@ -70,7 +69,7 @@ function App() {
     <>
       <Header />
 
-      <Inspiration />
+      
 
       <section id="tarefas">
         <h2>Minhas Tarefas</h2>
